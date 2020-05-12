@@ -1,0 +1,17 @@
+ /** Base **/
+ html {
+    body {
+        margin:0;
+        font-size: 100%;
+        color: $text;
+        font-family: 'Rubik', sans-serif;
+        
+        h1 {
+            color: $primary;
+        }
+        
+        h2 {
+            color: $secondary;
+        }
+    }
+}

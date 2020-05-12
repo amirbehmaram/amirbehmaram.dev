@@ -1,0 +1,47 @@
+/** Site **/
+.site {
+    height: 100vh;
+    width: 100vw;
+    
+    &-container {
+        background: {
+            image: url("https://res.cloudinary.com/uhhhhmir/image/upload/c_scale,w_1920/v1552448060/HomeImage-min.jpg");
+            position: center center;
+            repeat: no-repeat;
+            size: cover;
+        }
+        height: 100%;
+    }
+    
+    &-content {
+        
+        &-outer {
+            display: table;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        &-middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        &-inner {
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            height: auto;
+            
+            background-color: $background;
+            border-radius: 25px;
+            
+            @include lg {
+                width: 600px;
+                height: 550px;
+            }
+        }
+    }
+}

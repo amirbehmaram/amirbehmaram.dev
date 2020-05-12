@@ -1,0 +1,75 @@
+/** Content **/
+.content {
+    text-align: center;
+    padding: 30px;
+    
+    &-title {
+        font-size: 2rem;
+        color: $primary;
+        
+        @include lg {
+            font-size: 3rem;
+        }
+    }
+    
+    &-sub-title {
+        font-size: 1.5rem;
+        color: $primary;
+        display: inline-block;
+        margin: .5rem;
+        
+        @include lg {
+            font-size: 2rem;
+        }
+    }
+    
+    &-image {
+        width: 40%;
+        height: auto;
+        border-radius: 100%;
+        
+        @include lg {
+            width: 200px;
+        }
+    }
+    
+    &-wrapper {
+        p {
+            display: inline-block;
+        }
+
+        .email {
+            font-size: 1rem;
+            margin-top: 0;
+
+            @include lg {
+                font-size: 1.25rem;
+            }
+        }  
+    }
+    
+    &-links {
+        display: inline-block;
+        font-size: 2rem;
+        
+        @include lg {
+            font-size: 2rem;
+        }
+        
+        a {
+            color: $text;
+            
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+    
+    p {
+        font-size: 1.5rem;
+        
+        @include lg {
+            font-size: 1.25rem;
+        }
+    }
+}

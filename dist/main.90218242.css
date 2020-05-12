@@ -1,0 +1,126 @@
+/** Variables **/
+/** Base **/
+html body {
+  margin: 0;
+  font-size: 100%;
+  color: #4B4453;
+  font-family: "Rubik", sans-serif;
+}
+html body h1 {
+  color: #008F7A;
+}
+html body h2 {
+  color: #008E9B;
+}
+
+/** Content **/
+.content {
+  text-align: center;
+  padding: 30px;
+}
+.content-title {
+  font-size: 2rem;
+  color: #008F7A;
+}
+@media (min-width: 992px) {
+  .content-title {
+    font-size: 3rem;
+  }
+}
+.content-sub-title {
+  font-size: 1.5rem;
+  color: #008F7A;
+  display: inline-block;
+  margin: 0.5rem;
+}
+@media (min-width: 992px) {
+  .content-sub-title {
+    font-size: 2rem;
+  }
+}
+.content-image {
+  width: 40%;
+  height: auto;
+  border-radius: 100%;
+}
+@media (min-width: 992px) {
+  .content-image {
+    width: 200px;
+  }
+}
+.content-wrapper p {
+  display: inline-block;
+}
+.content-wrapper .email {
+  font-size: 1rem;
+  margin-top: 0;
+}
+@media (min-width: 992px) {
+  .content-wrapper .email {
+    font-size: 1.25rem;
+  }
+}
+.content-links {
+  display: inline-block;
+  font-size: 2rem;
+}
+@media (min-width: 992px) {
+  .content-links {
+    font-size: 2rem;
+  }
+}
+.content-links a {
+  color: #4B4453;
+}
+.content-links a:hover {
+  color: #008E9B;
+}
+.content p {
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .content p {
+    font-size: 1.25rem;
+  }
+}
+
+/** Site **/
+.site {
+  height: 100vh;
+  width: 100vw;
+}
+.site-container {
+  background-image: url("https://res.cloudinary.com/uhhhhmir/image/upload/c_scale,w_1920/v1552448060/HomeImage-min.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.site-content-outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.site-content-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.site-content-inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  background-color: #B0A8B9;
+  border-radius: 25px;
+}
+@media (min-width: 992px) {
+  .site-content-inner {
+    width: 600px;
+    height: 550px;
+  }
+}
+
+/*# sourceMappingURL=/main.90218242.css.map */
